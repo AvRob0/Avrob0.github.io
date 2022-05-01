@@ -1,0 +1,95 @@
+.statusdis{/*used to put color to the display statues*/
+    color:#5D3FD3 ;
+}
+.inRow3:hover{/*used for the stylee of the submit button when hovered over with the cursor*/
+    box-shadow: 0 0 9px azure;
+    position: relative;
+    border: solid 0.2em whitesmoke;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: 9px;
+    border-right:9ex;
+    border-top: solid #4169E1;
+    border-bottom: solid #4169E1;
+}
+.inRow3{/*this tag used for styling before the cursor hover over the submit button*/
+font-family:'Courier New', Courier, monospace;
+position: relative;
+border:  5px solid whitesmoke;
+color: #FFFFF0;
+display: inline-block;
+font-size: 20px;
+border-radius: 5ex;
+font-weight: bold;
+background: transparent;
+border-radius: 35%;
+border-style: double dashed;
+border: black;
+}
+.inRow2{/*styling effect of the input box 2*/
+    box-shadow: 0 0 15px #FFFFF0;
+    padding: 5px 5px;
+    margin: 8px 0;
+    color:#00A36C ;
+    border:1ch powderblue;
+	background-color: transparent;
+	border-radius:5cm;
+	border-bottom-left-radius:22pc;
+	border-top-right-radius: 9rem;
+	border-top-left-radius: 2in;
+	border-style:ridge;
+	border-bottom-right-radius: 22rem;
+	border-top-color:#301934 ;
+	border-bottom-color: #301934;
+	border-left-color: #89CFF0;
+	border-right-color:#89CFF0;
+	font-weight: bold;
+	font-style: oblique;
+	font-family: monospace;
+	border-left-style: double;
+	border-right-style: double;
+}
+
+.inRow1{/*styling effects of the input box 1*/
+    box-shadow: 0 0 15px #E5E4E2;
+    padding: 5px 5px;
+    margin: 8px 0;
+    color:#00A36C ;
+    border:1ch powderblue;
+	background-color: transparent;
+	border-radius:5cm;
+	border-bottom-left-radius:22pc;
+	border-top-right-radius: 9rem;
+	border-top-left-radius: 2in;
+	border-style:ridge;
+	border-bottom-right-radius: 22rem;
+	border-top-color:#301934 ;
+	border-bottom-color: #301934;
+	border-left-color: #89CFF0;
+	border-right-color:#89CFF0;
+	font-weight: bold;
+	font-style: oblique;
+	font-family: monospace;
+	border-left-style: double;
+	border-right-style: double;
+
+}
+body {/*color of background*/
+    background: black;
+}
+.glow{/*the glow effect of the h1/header of the page*/
+    color: #00A36C; 
+    font-family: cursive;
+    -webkit-text-stroke: 3px yellowgreen;
+    font-size: 50px;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {/*the webframes is what makes the glow effect take place*/
+    from {
+        text-shadow: 10px 0 20px #fff, 0 0 20px #fff, 0 0 30px #00A36C, 0 0 40px #00A36C, 0 0 50px #00A36C, 0 0 60px #00A36C, 0 0 70px #00A36C;
+    }
+    to{
+        text-shadow: 0 0 20px #fff, 0 0 30px #40826D, 0 0 40px #40826D, 0 0 50px #40826D, 0 0 60px #40826D, 0 0 70px #40826D 0 0 80px #40826D;
+    }
+}
+
+

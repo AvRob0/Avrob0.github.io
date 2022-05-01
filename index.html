@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--Avery Robinosn---Final Project--- 5/1/2022----->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="deco101.css"><!--the link tag connects the css file-->
+    <script src="indexSet.js"></script><!--the script tags connects the script file-->
+    <title>UAT Space Log-In Page</title><!--title of the tag-->
+</head>
+<body class="back"><!--start of body and class tag used for styling purposes-->
+    <center><!--center tag used for aligning the content-->
+    <h1 class="glow">Welcome To UAT Space Page<br><!--the header tag used for the title of the page with the 
+    class tag used for editing purposes-->
+        Please enter your First and Last name to continue to the next page.
+    </h1><!--end of header tag-->
+    </center><!--end of center tag-->
+    <form autocomplete="off" id="loginSubmit" onsubmit="return false"><!--form tag used to write a form to submit
+    with the id tag to link to the js file-->
+        <p align="center" style="color:#5D3FD3; font-size: 20px;" id="status" class="statusDis"></p><!--the paragraph tag
+        used for the display when incorrect info is inputed... will display here. align tag used for centering the content
+        and style tag used for the color of the font with font size and id used to link to the js file-->
+        <br><!--line break-->
+        <center style="margin-right: 6%; color: #5D3FD3; font-size: 20px;"><!--center tag used for aligning and style tag used for the spacing between content
+             with color of font also-->
+        First Name<input style="padding: 8px;" autocomplete="false" type="text" id="fName"  class="inRow1"/><br><!--the first input box for name log-in with style tag used for 
+            padding of inside the input box with the type tag telling what type of input is being used and class tag used for styling purposes-->
+        Last Name<input style="padding: 8px; margin-top: 50px;" autocomplete="false" type="text" id="lName" class="inRow2"/><br><!--Second input box used for last name 
+        with style tag for padding inside of the input box and margin used for spacing between boxes with type of input being used and id to link to the js file
+         and class tag for styling purposes-->
+        <input style="margin-left: 5%; margin-top: 30px" type="submit" onclick="runInfo();" class="inRow3"/><!--input tag used for the submit button and margin left used to center out
+        the button to the middle and margin top to put space between the top box, and type for what its being used for, onclick used for submiting info and linking to js file 
+        for funcitoning and class tag used for styling purposes-->
+        </center><!--end of center tag-->
+    </form><!--end of form tag-->
+    <center>
+     <nav>
+         <a style="font-size: 25px;" href="loop.for.html">Loop Countdown Page</a>|<br>
+         <a style="font-size: 25px;" href="Objectives.html">Advancing Computer Science Objectives</a>|
+     </nav>
+    </center>
+</body><!--end of body tag-->
+</html>

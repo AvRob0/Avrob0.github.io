@@ -1,0 +1,21 @@
+.link{
+    -webkit-text-stroke: 0.8px azure;  
+}
+.link2{
+    -webkit-text-stroke: 0.8px azure; 
+}
+.list{/*used for the coloring effect of the list*/
+    -webkit-text-stroke: 1px azure;/*used for the outline of the lettering*/
+    text-shadow: 0 0 50rem #FFE5B4;/*used for the shadow even though you cant see it*/
+
+}
+h1{/*used for editing of the header tag or h1 section*/
+-webkit-text-stroke: 1px #FFE5B4 ;/*used for the outline of the title/header of the page*/
+    text-shadow: 0 0 100px white;/*used to add shadow effect of the lettering even though you can see it*/
+}
+
+body{/* body tag used for editing the background of the page*/
+    background-size: 1560px 750px;/*used for the sizing of the background image*/
+    background-attachment: fixed;/*used to make a fixed position so when scrolled it stays in place*/
+    background-image: url("backgrnd.png");/*used for the insert of the background image*/
+}
